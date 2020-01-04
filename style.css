@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css?family=Kulim+Park&display=swap');
+
+body {
+	margin: 0px 100px;
+	background-color: #FAFAD2;
+	font-family: 'Kulim Park', sans-serif;
+  	background-repeat: repeat-x;
+}
+
+ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	background-color: rgb(243, 180, 180);
+}
+
+li {
+	float: left;
+}
+
+li a {
+	display: block;
+	color: rgb(216, 12, 80);
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+}
+
+li a:hover:not(.active) {
+	background-color: rgb(148, 138, 138)
+}
+
+.active {
+	background-color: rgb(224, 206, 203);
+}
+
+.konten {
+	background-image: url("fj.jpg")
+	
+}
+
+.form {
+	padding: 5px 400px;
+}
+
+input, textarea, select {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+}
+
+table {
+  border-collapse: collapse;
+  width: 80%;
+  margin: 20px;
+}
+
+th, td {
+  text-align: center;
+  padding: 8px;
+}
+
+tr:nth-child(even){background-color: SlateBlue; color: white}
+tr:nth-child(odd){background-color: Orange}
+
+th {
+  background-color: DodgerBlue;
+  color: white;
+}

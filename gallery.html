@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Gallery</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<title>Galeri foto</title>
+<style type="text/css">
+    a{
+        color : rgb(177, 10, 10);
+    }
+    a :hover {
+        color: yellow;
+        text-decoration: underline;
+
+    }
+    .thumbnails img {
+        height :80px;
+        border: 4px solid #555;
+        padding: 1px;
+        margin: 0 10px 10px 0;
+    }
+    .thumbnails img:hover{
+        border: 4px solid #00ccff;
+        cursor: pointer;
+    }
+    .preview img{
+        border : 4px solid #444;
+        padding: 1px;
+        width: 800px;
+    }
+
+</style>
+<body>
+    <div class="konten">
+        <ul>
+            <li> <a href="index.html">Home</a>
+            </li>
+            <li> <a href="gallery.html" class="active">Gallery</a>
+            </li>
+            <li> <a href="contact.html">Contact</a> 
+            </li>
+            <li> <a href="about.html">About</a> 
+            </li>
+        </ul>
+        <div class="gallery" align="center">
+            <h2> Galeri Macam-Macam Negara</h2>
+            <br>
+            <div class="thumbnalis">
+                <img onmouseover="preview".src=ams.src" name="ams" src="foto/ams.jpg" alt="foto">
+                <img onmouseover="preview".src=amster.src" name="amster" src="foto/amster.jpg" alt="foto">
+                <img onmouseover="preview".src=bunfgd.src" name="bunfgd" src="foto/bunfgd.jpg" alt="foto">
+                <img onmouseover="preview".src=download.src" name="download (2)" src="foto/download (2).jpg " alt="foto">
+                <img onmouseover="preview".src=ejede.src" name="ejede" src="foto/ejede.jpg" alt="foto">
+                <img onmouseover="preview".src=hhgg.src" name="hhgg" src="foto/hhgg.jpg" alt="foto">
+                <img onmouseover="preview".src=london.src" name="london" src="foto/london.jpg" alt="foto">
+                <img onmouseover="preview".src=mekah.src" name="mekah" src="foto/mekah.jpg" alt="foto">
+                <img onmouseover="preview".src=romaa.src" name="romaa" src="foto/romaa.jpg" alt="foto">
+                <img onmouseover="preview".src=tajmahal.src" name="tajmahal" src="foto/tajmahal.jpg" alt="foto">
+            </div>
+            <div class="preview" align="center">
+                <img name="preview" src="foto/ams.jpg" alt="foto">
+
+            </div>
+        </div>
+    </div>
+</body>
+</html>
